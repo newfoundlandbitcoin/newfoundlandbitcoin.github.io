@@ -1,21 +1,25 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Newfoundland Bitcoin">
-    <meta name="author" content="Newfoundland Bitcoin">
-    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
 
     <title>Newfoundland Bitcoin</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,41 +28,269 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home"><br>Newfoundland Bitcoin</a></h1>
+			<i class="fa fa-times menu-close"></i>
+			<a href="#home" class="smoothScroll">Home</a>
+			<a href="#about" class="smoothScroll">About</a>
+			<a href="#whatisbitcoin" class="smoothScroll">What is Bitcoin?</a>
+			<a href="#whyacceptbitcoin" class="smoothScroll">Why Accept Bitcoin?</a>
+			<a href="#rightforme" class="smoothScroll">Right for My Business?</a>	
+			<a href="#contact" class="smoothScroll">Contact</a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">Newfoundland Bitcoin</h3>
-      </div>
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<img src="./assets/img/logo2.png" class="img-responsive center">				
+						<h1>Newfoundland's Premier Bitcoin Consulting Firm</h1>
+					</div>
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/headerwrap -->
+	
+		<! -- ABOUT SECTION -->
+	<section id="about" name="about"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>ABOUT THE COMPANY
+					</h1>
+					</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-angle-right" style="font-size:1.5em;"></i>				
+					<p class="text">Newfoundland Bitcoin was founded in 2014 to assist in the adoption of the Bitcoin global payment system.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-angle-right" style="font-size:1.5em;"></i>			
+					<p class="text">Our highly experienced team has been involved in many different facets of the Bitcoin community since its inception in 2009.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-angle-right" style="font-size:1.5em;"></i>				
+					<p class="text">Whether you're looking to set up a quick payment system for your brick-and-mortar business, to accept bitcoins though your online webstore or to set up your own Bitcoin mining farm, if it's Bitcoin-related we can help you out!</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-angle-right" style="font-size:1.5em;"></i>				
+					<p class="text">If you have any questions about Bitcoin or how it can benefit your business don't hesitate to <a href="#contact">contact us!</a></p>
+				</div>
 
-      <div class="jumbotron">
-        <h1>Newfoundland Bitcoin</h1>
-        <p class="lead">Newfoundland's Premier Bitcoin Consulting Company</p>
-        <!-- <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
-      </div>
+			</div><! --/row -->
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>Coming Soon</h4>
-	  <p>Site under construction</p>
-        </div>
-      </div>
+			
+		</div><! --/container -->
+	</div><! --/aboutwrap -->
 
-      <div class="footer">
-        <p>&copy; Newfoundland Bitcoin 2014</p>
-      </div>
+	<! -- ABOUT SEPARATOR -->
+	<div class="sep about" data-stellar-background-ratio="0.5"></div>
+		
+	
+	<section id="whatisbitcoin" name="whatisbitcoin"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>WHAT IS BITCOIN?</h1>
+					<p>Bitcoin is revolutionizing the way money is sent across the globe.</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-bitcoin"></i><p>EASY PAYMENT SYSTEM<br/><br/></p>
+					<p class="text">Bitcoin is a simple way to send and receive payments for both individuals and businesses alike. All that is required is an internet connection and a device running Bitcoin-compatible software.</p>
+					<br/>
+				</div>
 
-    </div> <!-- /container -->
+				<div class="col-lg-3 service">
+					<i class="fa fa-globe"></i><p>FAST INTERNATIONAL PAYMENTS<br/><br/></p>
+					<p class="text">Bitcoin transactions can be made across the planet in minutes. There is no bank to slow down the process, level outrageous fees, or freeze the transfer. You can receive money from a customer in your shop just as easily as you can take payment from a client in Europe.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-clock-o"></i><p>WORKS ANYTIME, ANYWHERE<br/><br/></p>
+					<p class="text">Unlike a traditional bank, the Bitcoin network is always open for business. The network operates 24 hours a day, 7 days a week, 365 days a year throughout the world so transactions can be processed at any hour without delay.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-mobile"></i><p>MOBILE PAYMENTS MADE EASY<br/><br/></p>
+					<p class="text">Bitcoin allows your customers to pay with a simple two step scan-and-pay. There is no need for them to sign up, swipe a card, type a PIN, or sign anything. You simply display a QR code in your Bitcoin wallet application and let your customer scan it with their mobile device. Most mobile devices are supported including Android and Apple devices.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-lock"></i><p>SECURITY AND CONTROL<br/><br/></p>
+					<p class="text">Bitcoin transactions are secured by military grade cryptography. Nobody can charge you money or withdraw from your account without your consent. Bitcoin can give you control over your money and a strong level of protection against many types of fraud.</p>
+					<br/>
+				</div>
+			</div><! --/row -->
+		
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+	
+	<! -- WHAT IS BITCOIN SEPARATOR -->
+	<div class="sep whatisbitcoin" data-stellar-background-ratio="0.5"></div>
+	
+	<section id="whyacceptbitcoin" name="whyacceptbitcoin"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>WHY USE BITCOIN?</h1>
+					<p>Lower your expenses while making it easier for your customers to pay.</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-dollar"></i><p>LOWEST FEES OUT THERE<br/><br/></p>
+					<p class="text">You can make and receive payments using the Bitcoin network with almost no fees. Why pay credit card companies 3% of your sales when you don't have to?</p>
+					<br/>
+				</div>
 
+				<div class="col-lg-3 service">
+					<i class="fa fa-shield"></i><p>FRAUD PROTECTION<br/><br/></p>
+					<p class="text">Any business that accepts credit cards or PayPal knows the problem of payments that are later reversed. Fraudulent charge-backs result in limited market reach and increased prices, which in turn penalizes customers. Bitcoin payments are irreversible and secure, meaning that the cost of fraud is no longer pushed onto your shoulders as a merchant.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-credit-card"></i><p>NO PCI COMPLIANCE<br/><br/></p>
+					<p class="text">Accepting credit cards online typically requires extensive security checks in order to comply with the PCI standard. Bitcoin still requires you to secure your wallet and your payment requests. However, you do not carry the costs and responsibilities that come with processing sensitive information from your customers such as credit card numbers.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-eye"></i><p>INCREASED VISIBILITY<br/><br/></p>
+					<p class="text">Bitcoin is an emerging market that is increasingly making headlines. Being among the growing number of businesses that accept Bitcoin is a great way to increase the visibility of your business and reach new customers. </p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-money"></i><p>SETTLEMENT OF FUNDS<br/><br/></p>
+					<p class="text">A number of payment processors will allow you to accept Bitcoin from your customers while receiving settlement in Canadian Dollars, US Dollars, or another currency instead of receiving bitcoins. This allows you to add Bitcoin without disrupting your business.</p>
+					<br/>
+				</div>
+			</div><! --/row -->
+		
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
 
+		<! -- WHAT IS BITCOIN SEPARATOR -->
+	<div class="sep whyacceptbitcoin" data-stellar-background-ratio="0.5"></div>
+	
+	<section id="rightforme" name="rightforme"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>IS IT RIGHT FOR MY BUSINESS?</h1>
+					<p>Bitcoin has a solution for practically every type of business.</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-home"></i><p>HOME-BASED BUSINESSES<br/><br/></p>
+					<p class="text">Bitcoin is great for home-based businesses as it can work without requiring additional hardware or complicated wiring. If you have a laptop with an internet connection you can accept payments from clients right in your home. </p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-building-o"></i><p>BRICK AND MORTAR STORES<br/><br/></p>
+					<p class="text">Accepting Bitcoin does not require any expensive changes or re-training of staff. It can work alongside your current point-of-sale software and customers can easily make payments from their mobile phones.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-plane"></i><p>TRAVELLING SALES<br/><br/></p>
+					<p class="text">If your place of work is mobile and you are making sales on the go then Bitcoin is for you. You can easily accept payments on your existing mobile device instead of worrying about carrying around a bulky card processor and finding somewhere to hook it up.</p>
+					<br/>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-laptop"></i><p>ONLINE BUSINESSES<br/><br/></p>
+					<p class="text">Make it easy for your customers anywhere in the world to send you their money without having to jump over any hurdles. Whether your online business is a simple webpage, a popular piece of e-commerce shopping cart software or a custom-coded web application you can accept payments with Bitcoin.</p>
+					<br/>
+				</div>
+				</div><! --/row -->
+		
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+
+		
+	<! -- CONTACT SEPARATOR -->
+	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
+	
+	<! -- Contact SECTION -->
+	<section id="contact" name="contact"></section>
+	
+	<div id="contactwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1>CONTACT US</h1>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+
+			
+			<div class="row">
+				<div class="col-lg-6">
+					<p><br />If you are interested in accepting Bitcoin for your business or have questions about how Bitcoin can work for you - get in touch with us today!<br /><br /></p>
+				</div>
+			
+			</div><! --/row -->
+			
+			<div class="col-lg-3 service">
+				<i class="fa fa-phone" style="color:#FFFFFF;"></i><p>(709) 700-<!--1337!--><br/><br/></p>
+				<br/>
+			</div>
+
+			<div class="col-lg-3 service">
+				<i class="fa fa-envelope" style="color:#FFFFFF;"></i><p><a href='mail&#116;o&#58;in&#102;%6F&#64;&#37;6E&#101;wf&#111;undla&#37;&#54;&#69;&#100;b&#105;&#37;7&#52;&#99;%6Fi%&#54;&#69;&#46;co&#109;'>in&#102;o&#64;ne&#119;fo&#117;ndl&#97;ndbitcoin&#46;&#99;om</a><br/><br/></p>
+				<br/>
+			</div>
+
+			<a href="#" class="totop menuToggle" style="left:50%;position:absolute;"><i class="fa fa-angle-double-up"></i></a>
+
+		</div><!-- /container -->
+	</div>
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+	<script src="assets/js/main.js"></script>
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+	   </script>
+
   </body>
 </html>
-
